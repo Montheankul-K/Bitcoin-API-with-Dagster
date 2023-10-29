@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="bitcoin-api",
+    name="r2ae",
     install_requires=[
         "dagster",
         "dagster-cloud",
