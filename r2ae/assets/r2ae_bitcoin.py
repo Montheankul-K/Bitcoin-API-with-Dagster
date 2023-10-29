@@ -13,7 +13,7 @@ import io
 )
 
 # Defind function to ingest data from coincap.io
-def bitcoin_raw_json(context):
+def bitcoin_raw_json(context): # Job depend on context
     """
         Get bitcoin price via coincap API
     """
@@ -32,7 +32,7 @@ def bitcoin_raw_json(context):
 )
 
 # Defind function to transform data
-def bitcoin_dataframe(bitcoin_raw_json):
+def bitcoin_dataframe(bitcoin_raw_json): # Job depend on bitcoin_raw_json
     """
         Convert JSON Result to Pandas DataFrame
     """
@@ -50,7 +50,7 @@ def bitcoin_dataframe(bitcoin_raw_json):
 )
 
 # Define function to plot data
-def bitcoin_plot(context, bitcoin_dataframe):
+def bitcoin_plot(context, bitcoin_dataframe): # Job depend on bitcoin_dataframe, context
     """
         Plot price data graph
     """
