@@ -1,7 +1,8 @@
+# Defind dependencies for Dagster to install
 from setuptools import find_packages, setup
 
 setup(
-    name="r2ae",
+    name="bitcoin-api",
     install_requires=[
         "dagster",
         "dagster-cloud",

@@ -1,4 +1,4 @@
 locations:
-  - location_name: R2AE Project
+  - location_name: bitcoin-api project
     code_source:
-      package_name: r2ae
+      package_name: bitcoin-api
