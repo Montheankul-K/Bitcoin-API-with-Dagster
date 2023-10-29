@@ -1,0 +1,4 @@
+locations:
+  - location_name: R2AE Project
+    code_source:
+      package_name: r2ae
